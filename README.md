@@ -38,7 +38,7 @@ https://andro-crt-prog.github.io/Website-Personal-Portfolio/
 Clone this repository:
 bash
 Copy code
-git clone https://github.com/yourusername/portfolio-website.git
+git clone https://github.com/Andro-crt-prog/Website-Personal-Portfolio.git
 Navigate to the project folder:
 bash
 Copy code
