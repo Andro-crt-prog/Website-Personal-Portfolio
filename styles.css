@@ -442,7 +442,7 @@ header .navbar ul li a:hover {
 
 /* skills section starts */
 .skills {
-  min-height: 50vh;
+  min-height: 40vh;
   background: linear-gradient(to bottom, #bd73e7, #d2ccdd);
 }
 .skills h2 {
@@ -459,7 +459,7 @@ header .navbar ul li a:hover {
     width: 90%;
     margin: auto;
     margin-top: 2rem;
-    max-height: 60vh; /* Max height to prevent too tall containers */
+    max-height: 80vh; /* Max height to prevent too tall containers */
    
   }
 .skills .container .row {
@@ -470,7 +470,7 @@ header .navbar ul li a:hover {
 }
 .skills .container .bar {
   margin-bottom: 15px;
-  padding: 10px;
+  padding: 30px;
   border-radius: 1rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   background: rgba(0, 0, 22, 0.9);
@@ -512,7 +512,52 @@ header .navbar ul li a:hover {
     margin-top: 5px;
     width: 100%;
   }
+  /*added for now*/
 }
+.skills .skills-container {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.skills .skills-container h4 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.styled-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.styled-list.large-icons li {
+  font-size: 1.5rem; /* Bigger font size */
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  color:#000;
+  gap: 0.8rem; /* Space between icon and text */
+}
+
+.styled-list.large-icons i {
+  font-size: 2rem; /* Bigger icons */
+  color: #007bff; /* Optional color for the icons */
+}
+
+.skills-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto; /* Center the containers */
+}
+
 /* skills media queries ends*/
 /* skills section ends */
 
@@ -1087,4 +1132,38 @@ form .button-area {
 #scroll-top.active {
   top: calc(100% - 12rem);
 }
+/*.chatbot { position: fixed; 
+  bottom: 20px; 
+  right: 20px; 
+  width: 300px; 
+  background: #f1f1f1; 
+  border-radius: 10px; 
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2); 
+  display: none; }
+
+    .chatbot-header { padding: 10px; 
+      background: #007bff; 
+      color: white; 
+      border-radius: 10px 10px 0 0; }
+
+    .chatbot-body { max-height: 300px; 
+      overflow-y: auto; 
+      padding: 10px; }
+
+    .chatbot-footer { padding: 10px; 
+      border-top: 1px solid #ccc;
+      display: flex; }
+
+    #userInput { flex: 1; 
+      padding: 5px; 
+      margin-right: 5px; 
+      border: 1px solid #ccc; 
+      border-radius: 5px; }
+
+    #sendMessage { padding: 5px 10px; 
+      background: #007bff; 
+      color: white; 
+      border: none; 
+      border-radius: 5px; 
+      cursor: pointer; }
 /* scroll top ends */
