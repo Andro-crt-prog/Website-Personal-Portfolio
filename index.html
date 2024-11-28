@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Favicon -->
+    <script src="script.js"></script>
     <title>Portfolio | Andronica Maswanganye</title>
 </head>
 <body oncontextmenu="return false">
@@ -208,6 +208,28 @@
 </div>
 </section>
 <!-- experience section ends -->
+ 
+ <!-- Chatbot Section -->
+<div class="chatbot-container">
+  <div class="chatbot-header">
+    <h3>Chat with me!</h3>
+    <button id="chatbot-close-btn">×</button>
+  </div>
+  <div class="chatbot-messages" id="chatbot-messages"></div>
+  <div class="chatbot-input-container">
+    <input
+      type="text"
+      id="chatbot-input"
+      placeholder="Type your message..."
+    />
+    <button id="chatbot-send-btn">Send</button>
+  </div>
+</div>
+
+<!-- Chatbot Toggle Button -->
+<button id="chatbot-toggle-btn">💬</button>
+
+ <!--Chatbot ends-->
 
 <!-- footer section starts -->
 <section class="footer">
