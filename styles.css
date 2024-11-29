@@ -171,11 +171,11 @@ header .navbar ul li a:hover {
 }
 
 .home {
-  background-image: url('images/wallpaper.jpg');  /* Path to your image */
-  background-size: cover;       /* Ensures the image covers the full section */
-  background-position: center;  /* Centers the image */
-  background-attachment: fixed; /* Makes the background fixed when scrolling */
-  min-height: 100vh;            /* Ensures the section takes full viewport height */
+  background-image: url('images/wallpaper.jpg');  
+  background-size: cover;       
+  background-position: center;  
+  background-attachment: fixed; 
+  min-height: 100vh;            
 }
 
 .home #particles-js {
@@ -220,7 +220,7 @@ header .navbar ul li a:hover {
 .home .content h2 span {
   font-size: 5rem;
   font-weight: 800;
-  color: #56b88a;
+  color: #f7f7f7;
 }
 .home .content p {
   font-size: 2.5rem;
@@ -534,8 +534,8 @@ header .navbar ul li a:hover {
 
 .skills-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Two equal columns */
-  gap: 2rem; /* Space between columns */
+  grid-template-columns: 1fr 1fr; 
+  gap: 2rem; 
   margin-top: 2rem;
 }
 
@@ -556,23 +556,23 @@ header .navbar ul li a:hover {
 }
 
 .styled-list.large-icons li {
-  font-size: 1.5rem; /* Bigger font size */
+  font-size: 1.5rem; 
   margin: 0.5rem 0;
   display: flex;
   align-items: center;
   color:#000;
-  gap: 0.8rem; /* Space between icon and text */
+  gap: 0.8rem;
 }
 
 .styled-list.large-icons i {
-  font-size: 2rem; /* Bigger icons */
-  color: #007bff; /* Optional color for the icons */
+  font-size: 2rem; 
+  color: #007bff; 
 }
 
 .skills-container {
   width: 100%;
   max-width: 600px;
-  margin: 0 auto; /* Center the containers */
+  margin: 0 auto; 
 }
 
 /* skills media queries ends*/
@@ -1094,6 +1094,148 @@ form .button-area {
   font-size: 24px;
   cursor: pointer;
 }
+
+/* Chatbot Container */
+.chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: none; /* Hidden by default */
+  z-index: 1000;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Chatbot Header */
+.chatbot-header {
+  background-color: #0078d4; /* Adjust color */
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.chatbot-header button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Chatbot Messages */
+.chatbot-messages {
+  padding: 15px;
+  height: 200px;
+  overflow-y: auto;
+  font-size: 14px;
+  color: #333;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Chatbot Input Container */
+.chatbot-input-container {
+  display: flex;
+  padding: 10px;
+}
+
+.chatbot-input-container input {
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.chatbot-input-container button {
+  background-color: #0078d4;
+  color: white;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Chatbot Toggle Button */
+#chatbot-toggle-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For devices with width 768px or less (tablets and mobile) */
+@media (max-width: 768px) {
+  .chatbot-container {
+    width: 250px;
+  }
+
+  .chatbot-header {
+    font-size: 14px;
+  }
+
+  .chatbot-input-container input {
+    font-size: 12px;
+  }
+
+  .chatbot-input-container button {
+    font-size: 12px;
+  }
+
+  #chatbot-toggle-btn {
+    padding: 12px;
+    font-size: 16px;
+  }
+}
+
+/* For devices with width 480px or less (mobile) */
+@media (max-width: 480px) {
+  .chatbot-container {
+    width: 220px;
+  }
+
+  .chatbot-header {
+    font-size: 12px;
+  }
+
+  .chatbot-messages {
+    padding: 10px;
+    height: 150px;
+  }
+
+  .chatbot-input-container input {
+    font-size: 12px;
+  }
+
+  .chatbot-input-container button {
+    font-size: 12px;
+  }
+
+  #chatbot-toggle-btn {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
 /*Chatbot end*/
 
 /* footer section starts */
