@@ -469,7 +469,7 @@ header .navbar ul li a:hover {
     width: 90%;
     margin: auto;
     margin-top: 2rem;
-    max-height: 80vh; /* Max height to prevent too tall containers */
+    max-height: 80vh; 
    
   }
 .skills .container .row {
@@ -1104,7 +1104,7 @@ form .button-area {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  display: none; /* Hidden by default */
+  display: none;
   z-index: 1000;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
@@ -1112,7 +1112,7 @@ form .button-area {
 
 /* Chatbot Header */
 .chatbot-header {
-  background-color: #0078d4; /* Adjust color */
+  background-color: #0078d4; 
   color: white;
   padding: 10px;
   display: flex;
