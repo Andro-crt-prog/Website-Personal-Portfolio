@@ -42,14 +42,14 @@ document.addEventListener("DOMContentLoaded", () => {
   
         // Simple predefined responses
         const responses = {
-            hello: "Hi there! How can I assist you today?",
-            about: "I'm Andronica, Junior Software Developer, Detail-oriented and highly motivated junior software developer with a comprehensive understanding of programming languages and software development methodologies. ",
-            skills: "I specialize in HTML, CSS, JavaScript, SQL, and .NET Core. I also excel in Git version control.",
-            education: "I hold a National Diploma in Financial Information Systems",
-            experience: "I have experience in developing web applications, and using agile methodologies.",
-            contact: "You can reach me at maswanganyea30@gmail.com, Contact No; 0684193783 or connect with me on https://www.linkedin.com/in/andronica-maswanganye.",
-            adaptability: "Adaptability is one of my core strengths. I excel in learning new tools and adapting to challenges.",
-            default: "I'm here to answer questions about my portfolio, skills, or experience. Ask me something specific!",
+          hello: "Hi there! 👋 How can I help you today?",
+          about: "Hey! I'm Andronica, a Junior Software Developer. I’m detail-oriented, highly motivated, and passionate about coding! Let me know if you'd like to hear more about my journey. 😊",
+          skills: "I’m skilled in HTML, CSS, JavaScript, SQL, and .NET Core. Oh, and I’m a pro with Git for version control. Need help with any of these? Let me know! 💻",
+          education: "I hold a National Diploma in Financial Information Systems. 📚 Feel free to ask me about my academic background!",
+          experience: "I’ve built web applications and worked with agile methodologies. If you’re curious about my projects, just ask! 🚀",
+          contact: "You can email me at maswanganyea30@gmail.com, give me a call at 0684193783, or connect with me on LinkedIn here: https://www.linkedin.com/in/andronica-maswanganye. Can’t wait to hear from you! ✨",
+          adaptability: "Adaptability is my superpower! 🚀 I thrive in learning new tools and embracing challenges. Let’s talk about how I can add value!",
+          default: "I’m here to chat about my portfolio, skills, or experience. Ask me anything, and I’ll do my best to answer! 😄"
         };
   
         const lowerInput = userInput.toLowerCase();
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }, 1000);
     };
   
-    chatbotSendBtn.addEventListener("click", sendMessage);
+    chatbotSendBtn.addEventListener("click", sendMessage); 
   
     chatbotInput.addEventListener("keypress", (e) => {
       if (e.key === "Enter") {
