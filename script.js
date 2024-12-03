@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }, 1000);
     };
   
-    chatbotSendBtn.addEventListener("click", sendMessage);
+    chatbotSendBtn.addEventListener("click", sendMessage); 
   
     chatbotInput.addEventListener("keypress", (e) => {
       if (e.key === "Enter") {
