@@ -1017,8 +1017,9 @@ form .button-area {
 .chatbot-container {
   position: fixed;
   bottom: 20px;
+  height: 350px;
   right: 20px;
-  width: 300px;
+  width: 550px;
   background-color: #f9f9f9;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -1039,7 +1040,7 @@ form .button-area {
 
 .chatbot-messages {
   padding: 10px;
-  height: 250px;
+  height: 150px;
   overflow-y: auto;
   font-size: 14px;
 }
