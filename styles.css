@@ -1158,7 +1158,7 @@ form .button-area {
 }
 
 .chatbot-input-container button {
-  background-color: #95ee9c;
+  background-color: #4fe65b;
   color: white;
   padding: 8px 12px;
   font-size: 14px;
@@ -1172,7 +1172,7 @@ form .button-area {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #8bdaaf;
+  background-color: #08a850;
   color: white;
   border: none;
   padding: 15px;
