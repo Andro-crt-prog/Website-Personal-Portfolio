@@ -171,11 +171,11 @@ header .navbar ul li a:hover {
 }
 
 .home {
-  background-image: url('images/wallpaper.jpg');  /* Path to your image */
-  background-size: cover;       /* Ensures the image covers the full section */
-  background-position: center;  /* Centers the image */
-  background-attachment: fixed; /* Makes the background fixed when scrolling */
-  min-height: 100vh;            /* Ensures the section takes full viewport height */
+  background-image: url('images/wallpaper\ 2.jpg'); 
+  background-size: cover;       
+  background-position: center; 
+  background-attachment: fixed; 
+  min-height: 100vh;           
 }
 
 .home #particles-js {
@@ -469,7 +469,7 @@ header .navbar ul li a:hover {
     width: 90%;
     margin: auto;
     margin-top: 2rem;
-    max-height: 80vh; /* Max height to prevent too tall containers */
+    max-height: 80vh; 
    
   }
 .skills .container .row {
@@ -534,8 +534,8 @@ header .navbar ul li a:hover {
 
 .skills-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Two equal columns */
-  gap: 2rem; /* Space between columns */
+  grid-template-columns: 1fr 1fr; 
+  gap: 2rem;
   margin-top: 2rem;
 }
 
@@ -556,23 +556,23 @@ header .navbar ul li a:hover {
 }
 
 .styled-list.large-icons li {
-  font-size: 1.5rem; /* Bigger font size */
+  font-size: 1.5rem; 
   margin: 0.5rem 0;
   display: flex;
   align-items: center;
   color:#000;
-  gap: 0.8rem; /* Space between icon and text */
+  gap: 0.8rem; 
 }
 
 .styled-list.large-icons i {
-  font-size: 2rem; /* Bigger icons */
-  color: #007bff; /* Optional color for the icons */
+  font-size: 2rem;
+  color: #007bff; 
 }
 
 .skills-container {
   width: 100%;
   max-width: 600px;
-  margin: 0 auto; /* Center the containers */
+  margin: 0 auto; 
 }
 
 /* skills media queries ends*/
