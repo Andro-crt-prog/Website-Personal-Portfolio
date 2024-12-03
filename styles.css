@@ -1112,7 +1112,7 @@ form .button-area {
 
 /* Chatbot Header */
 .chatbot-header {
-  background-color: #0078d4; 
+  background-color: #9939a1; 
   color: white;
   padding: 10px;
   display: flex;
@@ -1157,7 +1157,7 @@ form .button-area {
 }
 
 .chatbot-input-container button {
-  background-color: #0078d4;
+  background-color: #95ee9c;
   color: white;
   padding: 8px 12px;
   font-size: 14px;
@@ -1171,7 +1171,7 @@ form .button-area {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #0078d4;
+  background-color: #8bdaaf;
   color: white;
   border: none;
   padding: 15px;

@@ -43,9 +43,11 @@ document.addEventListener("DOMContentLoaded", () => {
         // Simple predefined responses
         const responses = {
             hello: "Hi there! How can I assist you today?",
+            about: "I'm Andronica, Junior Software Developer, Detail-oriented and highly motivated junior software developer with a comprehensive understanding of programming languages and software development methodologies. ",
             skills: "I specialize in HTML, CSS, JavaScript, SQL, and .NET Core. I also excel in Git version control.",
+            education: "I hold a National Diploma in Financial Information Systems",
             experience: "I have experience in developing web applications, and using agile methodologies.",
-            contact: "You can reach me at maswanganyea30@gmail.com or connect with me on LinkedIn.",
+            contact: "You can reach me at maswanganyea30@gmail.com, Contact No; 0684193783 or connect with me on https://www.linkedin.com/in/andronica-maswanganye.",
             adaptability: "Adaptability is one of my core strengths. I excel in learning new tools and adapting to challenges.",
             default: "I'm here to answer questions about my portfolio, skills, or experience. Ask me something specific!",
         };
